@@ -30,7 +30,7 @@
           <li class="navbar-item"><a href="index.html" class="navbar-link">Home</a></li>
           <li class="navbar-item"><a href="about-us.html" class="navbar-link">About Us</a></li>
           <li class="navbar-item"><a href="gallery.html" class="navbar-link">Our Work</a></li>
-          <li class="navbar-item"><a href="index.html#services" class="navbar-link">Services</a></li>
+          <li class="navbar-item"><a href="index.html#mini-services" class="navbar-link">Services</a></li>
           <li class="navbar-item"><a href="contact-us.html" class="navbar-link">Contact</a></li>
         </ul>
       </div>
@@ -52,7 +52,8 @@
             <!-- Left Column: Contact Form -->
             <div class="contact-form-container">
               <h3 class="contact-title">Send a Message</h3>
-              <form action="#" class="contact-form">
+              <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="45913f0b-29ad-45c0-bc6d-3a246aa70982">
                 <div class="form-group">
                   <label for="name">Full Name</label>
                   <input type="text" id="name" name="name" required>
